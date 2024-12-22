@@ -1,10 +1,37 @@
+/* selector {property:value} */
+
 /* table, td {
     border: 2px solid rgb(140 140 140);
 } */
 
+/* border-radius ทำวงกลม */
+img {
+  width: 300px; 
+  height: 300px; 
+  border-radius: 50%;
+}
+
+body {
+  background-color: powderblue;
+}
+
+hr {
+  /* background-color: blue; */
+  border-style: dotted none none;
+  border-color: gray;
+  width: 30%;
+  /* height: 2px; */
+  border-width: 15px;
+}
+
+h1 {
+  color: rgb(246, 100, 124);
+}
+
 table {
     border-collapse: collapse;
-    border: 2px solid rgb(140 140 140);
+    /* เสันขอบ */
+    /* border: 2px solid rgb(140 140 140); */
     font-family: sans-serif;
     font-size: 0.8rem;
     letter-spacing: 1px;
@@ -23,7 +50,8 @@ table {
   
   th,
   td {
-    border: 1px solid rgb(160 160 160);
+    /* เส้นขอบ */
+    /* border: 1px solid rgb(160 160 160); */
     padding: 8px 10px;
   }
   
